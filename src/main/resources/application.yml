@@ -48,6 +48,6 @@ spring:
     pathmatch:
       matching-strategy: ant-path-matcher
       
-validation-url: http://localhost:3010/validateToken
+validation-url: http://20.124.34.119:3010/validateToken
       
      
