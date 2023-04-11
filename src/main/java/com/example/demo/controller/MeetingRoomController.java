@@ -77,7 +77,7 @@ public class MeetingRoomController {
 		response.setResponseCode("01");
 	    response.setResponseDescription(e.getMessage());
 	    response.setRoomEntity(rooms);
-	    response.setTokenStatus("Token is validated Successfully");
+	    response.setTokenStatus("Token is not validated :"+e.getMessage());
 	}
 	  
 	  return response;
